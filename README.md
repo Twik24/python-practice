@@ -1,0 +1,1 @@
+This folder has two project which are a score tracker and a word counter. As the name implies, the score tracker is taking input from the user and it is sorting and arranging all from the highest to the count cycle of the word while the word counter is lliterally counting words
