@@ -78,3 +78,10 @@ Response:
 {"hi": 3, "there": 1}
 ```
 Empty or blank text returns status 400 with the message "Provide some text."
+
+
+### Live demo
+
+https://python-practice-19o7.onrender.com/docs
+
+This runs on a free hosting plan, so it goes to sleep when nobody has used it for a while. The first request after that can take around 30 seconds to wake up.
