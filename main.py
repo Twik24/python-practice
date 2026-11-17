@@ -12,7 +12,7 @@ def ping():
 
 @app.get("/hello")
 def hello():
-    return({"message": "Yoo wagwann"})
+    return{"message": "Yoo wagwann"}
 
 
 class ScoreInput(BaseModel):
@@ -29,7 +29,6 @@ class TextInput(BaseModel):
 
 @app.post("/count-words")
 def count_words_route(data: TextInput):
-    # your check goes here
     if len(data.text.strip()) == 0:
         raise HTTPException(status_code=400, detail="Provide some text.")
     return count_words(data.text)
